@@ -1,0 +1,11 @@
+{
+    "require": {
+        "chrisboulton/php-resque": "1.2.x"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "Queue\\": "queue/"
+        }
+    }
+}
